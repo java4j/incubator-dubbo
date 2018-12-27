@@ -29,6 +29,7 @@ import java.util.Map;
 public class MetadataReportConfig extends AbstractConfig {
 
     private static final long serialVersionUID = 55233L;
+
     // register center address
     private String address;
 
