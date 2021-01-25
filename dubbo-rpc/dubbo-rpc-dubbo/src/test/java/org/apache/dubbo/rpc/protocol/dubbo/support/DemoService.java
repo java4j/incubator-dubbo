@@ -47,11 +47,11 @@ public interface DemoService {
 
     Type enumlength(Type... types);
 
-	Type getType(Type type);
+    Type getType(Type type);
 
     String get(CustomArgument arg1);
 
-    byte getbyte(byte arg);
+    int getInt(int arg);
 
     void nonSerializedParameter(NonSerialized ns);
 
@@ -63,4 +63,7 @@ public interface DemoService {
 
     int getPerson(Person person1, Person perso2);
 
+    String getPerson(Man man);
+
+    String getRemoteApplicationName();
 }
